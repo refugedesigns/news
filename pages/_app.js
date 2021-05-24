@@ -1,14 +1,12 @@
-import '../styles/globals.css'
-import MainNavigation from '../components/Layout/mainNavigation'
+import "../styles/globals.css";
+import MainHeader from '../components/Layout/MainHeader'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="h-full bg-gray-200 w-full font-serif ">
-      <MainNavigation>
-        <Component {...pageProps} />
-      </MainNavigation>
-    </div>
+    <MainHeader>
+      <Component {...pageProps} />
+    </MainHeader>
   );
 }
 
-export default MyApp
+export default MyApp;

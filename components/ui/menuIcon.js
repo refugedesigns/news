@@ -3,7 +3,7 @@ const menuIcon = () => {
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-8 w-8 fill-content text-yellow-600 md:hidden"
+          className="h-8 w-8 fill-content text-green-600 lg:hidden"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
