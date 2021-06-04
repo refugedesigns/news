@@ -4,6 +4,42 @@
 
 @layer base {
   body {
-    @apply bg-green-900;
+    @apply bg-[#1A2238];
   }
+}
+
+.pattern {
+  background-color: #9DAAF2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%231a2238' fill-opacity='0.6'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.active {
+  color: #FF6A3D;
+}
+
+.item-zoom {
+	position: relative;
+	overflow: hidden;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.item-zoom div {
+	vertical-align: top;
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.item-zoom:hover div {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.stick {
+	position: sticky;
+	top: 0;
 }

@@ -14,15 +14,15 @@ const LargeVideoItem = () => {
               layout="responsive"
             />
           </div>
-          <PlayIcon className="h-16 absolute bottom-0 text-white bg-green-500 px-4" />
+          <PlayIcon className="h-16 absolute bottom-0 text-white bg-[#FF6A3D] px-4" />
         </div>
       </div>
-      <div className="bg-green-700 p-4">
-        <h1 className="font-semibold text-md text-green-100">
+      <div className="bg-[#9DAAF2] p-4">
+        <h1 className="font-semibold text-md text-[#1A2238]">
           Elon Musk Says He's Working With Dogecoin Devs to Improve Network
         </h1>
-        <p className="py-4 font-semibold text-green-100">May 14, 2021</p>
-        <p className="text-sm font-semibold text-green-100">
+        <p className="py-4 font-semibold text-[#1A2238]">May 14, 2021</p>
+        <p className="text-sm font-semibold text-[#1A2238]">
           The price of dogecoin surged after Elon Musk tweeted he was working
           with the joke coin’s developers to improve the network’s transaction
           efficiency. This tweet follows on the heels of Musk’s announcement

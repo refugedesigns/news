@@ -1,6 +1,8 @@
 import { Fragment } from 'react'
 import Logo from './Logo'
 import NavigationItems from './NavigationItems'
+import Footer from '../Layout/footer/Footer'
+import Sticky from 'react-sticky-el'
 
 
 const MainHeader = (props) => {
@@ -8,9 +10,14 @@ const MainHeader = (props) => {
       <Fragment>
         <header>
           <Logo />
+          <Sticky stickyClassName={"z-50"}>
           <NavigationItems />
+          </Sticky>
         </header>
-        <main>{props.children}</main>
+        <main className="z-30">{props.children}</main>
+        <footer>
+          <Footer />
+        </footer>
       </Fragment>
     );
 }
